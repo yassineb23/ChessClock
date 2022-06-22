@@ -14,11 +14,13 @@
 <body>
   <h1>Chess Clock</h1>
   <div id="container">
-    <label>Time(in minutes)*</label>
-    <input type="text">
-    <label>increment(in sec)</label>
-    <input type="text">
-    <button>Start clock</button>
-  </div>  
+    <form action="clock.html" method="GET">
+      <label>Time(in minutes)*</label>
+      <input type="text" name="time">
+      <label>increment(in sec)</label>
+      <input type="text" name="inc" disabled>
+      <button>Start clock</button>
+    </form>  
+    </div>  
 </body>
 </html>

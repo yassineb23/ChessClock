@@ -16,7 +16,7 @@ h1{
     font-size: 4em;
 }
 
-#container{
+#container form{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -26,7 +26,7 @@ h1{
     margin-top: 8%;
 }
 #container *{
-    margin:1%;
+    margin:1.5vw;
 }
 label{
     font-size: 1.2em;
@@ -37,7 +37,7 @@ input{
     border:solid 2px #ced6e0;
     box-shadow: none;
     height:4vh;
-    width:15vw;
+    width:18vw;
     padding: 1%;
     font-size: 1em;
 }
